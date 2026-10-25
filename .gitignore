@@ -1,0 +1,6 @@
+*.self
+*.pkg
+/PS3/build/
+/PS3/*.elf
+/PS3/*.self
+/PS3/*.pkg

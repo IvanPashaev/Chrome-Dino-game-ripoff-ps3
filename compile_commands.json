@@ -1,0 +1,30 @@
+[
+  {
+    "file": "/home/Ivan/programming/C-C++/cookie-clicker-ps3-v2/source/main.c",
+    "arguments": [
+      "/usr/local/ps3dev/ppu/bin/ppu-gcc",
+      "-MMD",
+      "-MP",
+      "-MF",
+      "/home/Ivan/programming/C-C++/cookie-clicker-ps3-v2/build/main.d",
+      "-O2",
+      "-Wall",
+      "-mcpu=cell",
+      "-mhard-float",
+      "-fmodulo-sched",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-I/home/Ivan/programming/C-C++/cookie-clicker-ps3-v2/include",
+      "-I/usr/local/ps3dev/ppu/include",
+      "-I/usr/local/ps3dev/ppu/include/simdmath",
+      "-I/home/Ivan/programming/C-C++/cookie-clicker-ps3-v2/build",
+      "-I/usr/local/ps3dev/portlibs/ppu/include",
+      "-c",
+      "/home/Ivan/programming/C-C++/cookie-clicker-ps3-v2/source/main.c",
+      "-o",
+      "main.o"
+    ],
+    "directory": "/home/Ivan/programming/C-C++/cookie-clicker-ps3-v2/build",
+    "output": "main.o"
+  }
+]

@@ -1,0 +1,32 @@
+#ifndef GAME_H
+#define GAME_H
+
+#include "player.h"
+#include "map.h"
+#include "crystal.h"
+
+static void GameInit(void) {
+    map.id = 1;
+    Player.x = 100;
+    Player.y = 380;
+    Player.jumpcount = 10;
+    Player.IsJumping = false;
+    Player.score = 0;
+    HomePlayer.x = 100;
+    HomePlayer.y = 350;
+    crystal.x = 500;
+}
+
+static void ResetGameState(void) {
+    Player.score = 0;
+    Player.x = 100;
+    Player.y = 380;
+    Player.jumpcount = 10;
+    Player.IsJumping = false;
+    HomePlayer.x = 100;
+    HomePlayer.y = 350;
+    crystal.x = 500;
+    map.id = 1;
+}
+
+#endif

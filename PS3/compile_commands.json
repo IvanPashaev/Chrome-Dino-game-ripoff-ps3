@@ -1,0 +1,33 @@
+[
+  {
+    "file": "/home/Ivan/programming/C-C++/Chrome-Dino-game-ripoff-ps3/PS3/./main.c",
+    "arguments": [
+      "/usr/local/ps3dev/ppu/bin/ppu-gcc",
+      "-MMD",
+      "-MP",
+      "-MF",
+      "/home/Ivan/programming/C-C++/Chrome-Dino-game-ripoff-ps3/PS3/build/main.d",
+      "-O2",
+      "-Wall",
+      "-std=gnu99",
+      "-mcpu=cell",
+      "-mtune=cell",
+      "-mhard-float",
+      "-fmodulo-sched",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-I/home/Ivan/programming/C-C++/Chrome-Dino-game-ripoff-ps3/PS3/.",
+      "-I/usr/local/ps3dev/portlibs/ppu/include",
+      "-I/usr/local/ps3dev/ppu/include",
+      "-I/usr/local/ps3dev/ppu/include/simdmath",
+      "-I/home/Ivan/programming/C-C++/Chrome-Dino-game-ripoff-ps3/PS3/build",
+      "-I/usr/local/ps3dev/portlibs/ppu/include",
+      "-c",
+      "/home/Ivan/programming/C-C++/Chrome-Dino-game-ripoff-ps3/PS3/./main.c",
+      "-o",
+      "main.o"
+    ],
+    "directory": "/home/Ivan/programming/C-C++/Chrome-Dino-game-ripoff-ps3/PS3/build",
+    "output": "main.o"
+  }
+]
